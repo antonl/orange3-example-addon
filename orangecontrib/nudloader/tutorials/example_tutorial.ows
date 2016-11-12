@@ -1,18 +1,48 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheme description="" title="Example Workflow" version="2.0">
+<scheme description="" title="Test Load Nudie" version="2.0">
 	<nodes>
-		<node id="0" name="Example Widget" position="(129.0, 126.0)" project_name="Orange3-Example-Add-on" qualified_name="orangecontrib.example.widgets.mywidget.MyWidget" title="Example Widget" version="" />
+		<node id="0" name="Load Data" position="(165.0, 112.0)" project_name="nu-D-Spectra-Loader" qualified_name="orangecontrib.nudloader.widgets.mywidget.DataLoader" title="Load Data" version="" />
+		<node id="1" name="File" position="(178.0, 297.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owfile.OWFile" title="File" version="" />
+		<node id="2" name="Majority" position="(276.0, 100.0)" project_name="Orange3" qualified_name="Orange.widgets.classify.owmajority.OWMajority" title="Majority" version="" />
+		<node id="3" name="Nearest Neighbors" position="(414.0, 58.0)" project_name="Orange3" qualified_name="Orange.widgets.classify.owknn.OWKNNLearner" title="Nearest Neighbors" version="" />
+		<node id="4" name="Predictions" position="(354.0, 215.0)" project_name="Orange3" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" title="Predictions" version="" />
 	</nodes>
 	<links />
-	<annotations>
-		<arrow end="(183.0, 144.0)" fill="#C1272D" id="0" start="(283.0, 238.0)" />
-		<text font-family="Helvetica" font-size="16" id="1" rect="(259.0, 260.0, 150.0, 44.0)">This is a wiget from an addon</text>
-	</annotations>
+	<annotations />
 	<thumbnail />
 	<node_properties>
-		<properties format="pickle" node_id="0">gAN9cQBYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxAWNzaXAKX3VucGlja2xlX3R5cGUKcQJYDAAA
-AFB5UXQ0LlF0Q29yZXEDWAoAAABRQnl0ZUFycmF5cQRDLgHZ0MsAAQAAAAAGEQAABHQAAAbYAAAE
-7QAABhEAAASKAAAG2AAABO0AAAAAAABxBYVxBodxB1JxCHMu
+		<properties format="pickle" node_id="0">gAN9cQAoWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQFDLgHZ0MsAAQAAAAABxQAAAJEAAAOfAAAB
+fwAAAccAAACrAAADnQAAAXsAAAAAAABxAlgKAAAAbXljaGVja2JveHEDiXUu
+</properties>
+		<properties format="pickle" node_id="1">gAN9cQAoWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQFDLgHZ0MsAAQAAAAABZwAAAIYAAAPBAAAC
+yQAAAWkAAACgAAADvwAAAsUAAAAAAABxAlgLAAAAc2hlZXRfbmFtZXNxA31xBFgLAAAAcmVjZW50
+X3VybHNxBV1xBlgQAAAAY29udGV4dF9zZXR0aW5nc3EHXXEIWAMAAAB1cmxxCVgAAAAAcQpYBgAA
+AHNvdXJjZXELSwBYDAAAAHJlY2VudF9wYXRoc3EMXXENKGNPcmFuZ2Uud2lkZ2V0cy51dGlscy5m
+aWxlZGlhbG9ncwpSZWNlbnRQYXRoCnEOKYFxD31xEChYBQAAAHRpdGxlcRFoClgGAAAAcHJlZml4
+cRJYDwAAAHNhbXBsZS1kYXRhc2V0c3ETWAcAAAByZWxwYXRocRRYCwAAAGhvdXNpbmcudGFicRVY
+BwAAAGFic3BhdGhxFlhcAAAAL3UvaG9tZS9hbG91a2lhbi9hbmFjb25kYTMvZW52cy9weTM1L2xp
+Yi9weXRob24zLjUvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvaG91c2luZy50YWJxF1gF
+AAAAc2hlZXRxGGgKdWJoDimBcRl9cRooaBFoCmgSaBNoFFgIAAAAaXJpcy50YWJxG2gWWFkAAAAv
+dS9ob21lL2Fsb3VraWFuL2FuYWNvbmRhMy9lbnZzL3B5MzUvbGliL3B5dGhvbjMuNS9zaXRlLXBh
+Y2thZ2VzL09yYW5nZS9kYXRhc2V0cy9pcmlzLnRhYnEcaBhoCnViaA4pgXEdfXEeKGgRaApoEmgT
+aBRYCwAAAHRpdGFuaWMudGFicR9oFlhcAAAAL3UvaG9tZS9hbG91a2lhbi9hbmFjb25kYTMvZW52
+cy9weTM1L2xpYi9weXRob24zLjUvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvdGl0YW5p
+Yy50YWJxIGgYaAp1YmV1Lg==
+</properties>
+		<properties format="pickle" node_id="2">gAN9cQAoWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQFDLgHZ0MsAAQAAAAAB3AAAAaAAAAMiAAAC
+SQAAAd4AAAG6AAADIAAAAkUAAAAAAABxAlgMAAAAbGVhcm5lcl9uYW1lcQNYCAAAAE1ham9yaXR5
+cQRYCgAAAGF1dG9fYXBwbHlxBYh1Lg==
+</properties>
+		<properties format="pickle" node_id="3">gAN9cQAoWAoAAABhdXRvX2FwcGx5cQGIWAwAAABtZXRyaWNfaW5kZXhxAksAWAsAAAB3ZWlnaHRf
+dHlwZXEDSwBYDAAAAGxlYXJuZXJfbmFtZXEEWAMAAABrTk5xBVgTAAAAc2F2ZWRXaWRnZXRHZW9t
+ZXRyeXEGQy4B2dDLAAEAAAAAAdwAAAFgAAADIgAAAogAAAHeAAABegAAAyAAAAKEAAAAAAAAcQdY
+CwAAAG5fbmVpZ2hib3JzcQhLBXUu
+</properties>
+		<properties format="pickle" node_id="4">gAN9cQAoWBIAAABzaG93X3Byb2JhYmlsaXRpZXNxAYhYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlx
+AkMuAdnQywABAAAAAAETAAAArQAABIEAAANGAAABFQAAAMcAAAR/AAADQgAAAAAAAHEDWBQAAABv
+dXRwdXRfcHJvYmFiaWxpdGllc3EEiFgJAAAAZHJhd19kaXN0cQWIWBIAAABvdXRwdXRfcHJlZGlj
+dGlvbnNxBohYCgAAAHNob3dfYXR0cnNxB4hYEAAAAGNvbnRleHRfc2V0dGluZ3NxCF1xCVgMAAAA
+b3V0cHV0X2F0dHJzcQqIWBAAAABzaG93X3ByZWRpY3Rpb25zcQuIdS4=
 </properties>
 	</node_properties>
 </scheme>

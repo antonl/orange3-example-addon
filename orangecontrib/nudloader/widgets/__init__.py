@@ -27,3 +27,5 @@ WIDGET_HELP_PATH = (
     # performed by comparing link caption to widget name.
     ("http://orange3-example-addon.readthedocs.io/en/latest/", "")
 )
+
+from .mywidget import DataLoader
